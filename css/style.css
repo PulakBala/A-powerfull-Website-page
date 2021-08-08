@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    height: 60px;
+    margin: auto;
+    
+}
+.header-section{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(87, 41, 41);
+    position: sticky;
+    top: 0px;
+}
+.header-section .header-left{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+.header-section .header-left img {
+    width: 50px;
+    margin-top: 5px;
+}
+
+.header-section .header-right ul{
+    float: right;
+    text-align: right;
+}
+.header-section .header-right ul li {
+    list-style: none;
+    display: inline;
+}
+.header-section .header-right ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 0px 30px;
+    margin-top: 15px;
+    font-size: 24px;
+    border-bottom: 2px solid transparent;
+}
+.header-section .header-right ul li a:hover{
+    color: rgb(22, 243, 52);
+    border-bottom: 2px solid #fff;
+}
+
+/* End header */
+.banner-section{
+    width: 100%;
+    height: 98vh;
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-section .banner-left{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.banner-section .banner-left h1{
+    font-size: 50px;
+    padding: 40px;
+}
+.banner-section .banner-left p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.banner-section .banner-left .btn{
+    padding: 15px 30px;
+    background: red;
+    font-size: 25px;
+    border: none;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.banner-section .banner-left .btn:hover{
+   background-color: rgb(25, 168, 25);
+}
+.banner-section .banner-right {
+    width: 50%;
+    float: right;  
+}
+
+/* End banner */
+.about-section{
+    width: 100%;
+    height:55vh;
+    background-color: rgba(90, 36, 36, 0.884);
+    margin-top: 30px;
+ 
+}
+.about-section .central-right h2 {
+    font-size: 40px;
+}
+.about-section .central-right p {
+    font-size: 25px;
+}
+.about-section .central-left img{
+    width: 450px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 2px solid;
+    box-shadow: 2px 3px;
+    border-radius: 20px;
+}
+.about-section .central-left{
+    display: inline-block;
+}
+.about-section .central-right{
+    float: right;
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+/* end first */
+.about-section .mid-left h2 {
+    font-size: 40px;
+}
+.about-section .mid-left p {
+    font-size: 25px;
+}
+.about-section .mid-right img{
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 60px;
+    border: 2px solid;
+    box-shadow: 2px 3px;
+    border-radius: 20px;
+}
+.about-section .mid-left{
+    display: inline-block;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.about-section .mid-right{
+    float: right;   
+
+}
+/* end about section */
+.service-section {
+    background: #c04257;
+    padding: 30px 0px;
+    margin-top: 30px;
+}
+.service-section .title{
+    text-align: center;
+    
+}
+.title h2{
+    
+    font-size: 40px;
+}
+.service-section .title h2:hover{
+    color: white;
+}
+
+.website{
+    background: rgb(219, 181, 181);
+    padding: 15px 10px 15px 40px;
+    box-shadow: 0px 0px 10px rgb(175, 32, 32);
+    width: 180px;
+    margin: 0px 15px;
+    margin-top: 20px;
+}
+.website{
+    width: 280px;
+    height: auto;
+    border: 1px solid #fff;
+
+}
+.website h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.website p{
+    font-size: 20px;
+}
+.service-footerinner{
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.service-footerinner h3:hover{
+    color: white;
+}
+/* End service-fotterinner */
+.trial-section{
+    margin-top: 30px;
+}
+.Premimum-section{
+    text-align: center;
+    background-image: linear-gradient( rgb(238, 138, 138),rgb(89, 218, 164),rgb(168, 11, 155));
+    padding: 40px;
+}
+.premium-container h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.premium-container p{
+    font-size: 25px;
+    margin-top: 30px;
+} 
+.premium-container .trial{
+    font-size: 30px;
+    padding: 18px 30px;
+    margin-top: 30px;
+    background-color: rgb(240, 24, 211);
+    border-radius: 10px;
+}
+.premium-container .trial:hover{
+    background-color: rgb(214, 35, 65);
+}
+/* End trial section */
+.success-section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(243, 207, 225);
+    margin-top: 30px;
+
+}
+.success h1{
+    text-align: center;
+    font-size: 40px;
+}
+.success-container .support img{
+    width: 350px;
+    height: auto;
+}
+.success-container .support h3{
+    font-size: 30px;
+}
+.success-container .support p{
+    font-size: 25px;
+}
+.success-section .software-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+/* End success-section */
+
+.started-section{
+    text-align: center;
+    background-image: linear-gradient(rgb(186, 137, 201),rgb(104, 197, 104),rgb(87, 87, 131));
+    padding: 40px;
+}
+.started-section .free{
+    font-size: 30px;
+    padding: 18px 30px;
+    margin-top: 30px;
+    background-color: rgb(161, 43, 146);
+    border-radius: 10px;
+}
+.started-section .free:hover{
+    background-color:green;
+}
+/* End trial-section */
+.hed-section{
+    width: 100%;
+    height: auto;
+}
+.hed-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 40px;
+    background-color: grey;
+}
+.hed-container ul {
+    list-style: none;
+    font-size: 25px;  
+    margin-top: 30px;
+}
+.hed-container ul li{
+    line-height: 40px;
+}
+.hed-container h3{
+    font-size: 30px;
+}
+.hed-container ul li:hover{
+    color: rgb(87, 41, 41);
+}
+/* End hed-container */
+.footer-section{
+    width: 100%;
+    height: auto;
+}
+.footer-container{
+    padding: 40px;
+}
+.footer-container, .footer-icon{
+    display: flex;
+    margin-left: 80px;
+
+}
+.footer-icon i{
+    font-size: 30px;
+    color: grey;
+}
+.fab{
+    padding: 10px;
+}
+.footer{
+    margin-left: 300px;
+}
+.footer p{
+    font-size: 22px;
+    padding: 10px;
+    color: grey;
+}
+.footer-icon i:hover{
+    color:blue;
+}
+.footer p:hover{
+    color: rgb(22, 21, 21);
+}
